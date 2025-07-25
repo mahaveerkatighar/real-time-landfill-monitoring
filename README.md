@@ -1,6 +1,6 @@
 # Real-Time Landfill Methane & Environmental Monitoring
 
-This project, developed for the Python Programming and Practice Laboratory (22SD5DS203), is a real-time environmental monitoring system designed for landfill sites. It utilizes an ESP32 microcontroller and Python to create a practical IoT-based solution for pollution control and early intervention.
+This project is a real-time environmental monitoring system designed for landfill sites. It utilizes an ESP32 microcontroller and Python to create a practical IoT-based solution for pollution control and early intervention.
 
 ## Abstract
 
@@ -67,12 +67,12 @@ The system operates by collecting sensor data, displaying it locally, sending it
 2.  Open the Python script and update the following variables with your details:
     ```python
     # ThingSpeak details
-    CHANNEL_ID = "2988388" // Your Channel ID
-    READ_API_KEY="4051TNRVMFLN1JJ3" // Your Read API Key
+    CHANNEL_ID = "2928388" // Your Channel ID
+    READ_API_KEY="4051TNRVMFLN1JB3" // Your Read API Key
     
     # Email setup
     SENDER_EMAIL = "mahaveerelectronicshub@gmail.com" // Your sender email address
-    RECEIVER_EMAIL = "mahaveerkatigha5@gmail.com" // The email address to receive alerts
+    RECEIVER_EMAIL = "mahaveerkatighar05@gmail.com" // The email address to receive alerts
     EMAIL_PASSWORD = "zgzz 1mvy ivru huxb" // Your App Password for the sender email
     ```
 3.  Run the script from your terminal to begin monitoring:
