@@ -16,7 +16,7 @@ This project focuses on real-time environmental monitoring in landfill sites usi
 
 The system operates by collecting sensor data, displaying it locally, sending it to the cloud, and then using a Python script for remote monitoring and alerting.
 
-![Block Diagram of the Monitoring System](real-time-landfill-monitoring/image/Block Diagram.png)
+![Block Diagram of the Monitoring System](image/Block%20Diagram.png)
 
 ### Working Principle
 
@@ -67,13 +67,13 @@ The system operates by collecting sensor data, displaying it locally, sending it
 2.  Open the Python script and update the following variables with your details:
     ```python
     # ThingSpeak details
-    CHANNEL_ID = "2928388" // Your Channel ID
-    READ_API_KEY="4051TNRVMFLN1JB3" // Your Read API Key
+    CHANNEL_ID = "Your_Channel_ID" 
+    READ_API_KEY= "Your_Read_API_Key"
     
     # Email setup
-    SENDER_EMAIL = "mahaveerelectronicshub@gmail.com" // Your sender email address
-    RECEIVER_EMAIL = "mahaveerkatighar05@gmail.com" // The email address to receive alerts
-    EMAIL_PASSWORD = "zgzz 1mvy ivru huxb" // Your App Password for the sender email
+    SENDER_EMAIL = "your_sender_email@gmail.com"
+    RECEIVER_EMAIL = "your_receiver_email@gmail.com"
+    EMAIL_PASSWORD = "your_app_password" 
     ```
 3.  Run the script from your terminal to begin monitoring:
     ```bash
