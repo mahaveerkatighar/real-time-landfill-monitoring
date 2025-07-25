@@ -18,12 +18,14 @@ The system operates by collecting sensor data, displaying it locally, sending it
 
 ![Block Diagram of the Monitoring System](image/Block%20Diagram.png)
 
-### Working Principle
+## Project Demo
 
-1.  **Data Acquisition**: The ESP32 microcontroller reads analog values from the MQ-4 (Methane) and MQ-135 (CO₂) sensors, and digital data from the DHT11 (Temperature & Humidity) sensor.
-2.  **Local Display & Alert**: The OLED screen displays current readings. A buzzer is triggered locally if the methane level is high.
-3.  **Cloud Transmission**: The collected data is formatted and sent to a ThingSpeak channel every few seconds via an HTTP POST request.
-4.  **Remote Monitoring & Alerts**: A Python script fetches the data from ThingSpeak using an HTTP GET request. If any value exceeds a safe threshold, an email alert is automatically sent using the SMTP protocol.
+Click the links below to view the prototype videos:
+
+* [**Prototype Video 1**](Video/video_1.mp4)
+* [**Prototype Video 2**](Video/video_2.mp4)
+* [**Prototype Video 3**](Video/video_3.mp4)
+* [**Prototype Video 4**](Video/video_4.mp4)
 
 ## Hardware & Software
 
