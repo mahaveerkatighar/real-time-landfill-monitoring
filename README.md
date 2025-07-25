@@ -16,7 +16,7 @@ This project focuses on real-time environmental monitoring in landfill sites usi
 
 The system operates by collecting sensor data, displaying it locally, sending it to the cloud, and then using a Python script for remote monitoring and alerting.
 
-![Block Diagram of the Monitoring System](https://i.imgur.com/uR1lGqj.png)
+![Block Diagram of the Monitoring System](image/Block Diagram.png)
 
 ### Working Principle
 
